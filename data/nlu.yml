@@ -1,0 +1,96 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - thank you
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - many thanks 
+    - i'll try it
+
+- intent: deny
+  examples: |
+    - no thanks
+    - not at all
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - thanks
+    
+- intent: whiterice
+  examples: |
+    - white rice
+    - jasmin rice
+    - basmati rice 
+    - glutious rice
+    - sushi rice
+    - fragant rice
+    
+- intent: brownrice
+  examples: |
+    - red rice
+    - brown rice
+    - black rice 
+    - black glutious rice
+    - basmati brown rice
+    - jasmin brown rice
+  
+- intent: mood_great
+  examples: |
+    - yes 
+    - I find it
+    - I found it. Thanks
+    - yes thanks
+    - I have found
+    - I have found
+
+- intent: mood_unhappy
+  examples: |
+    - No 
+    - I did not find
+    - No can you help me
+    - Not at all
+    - not really
+      
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

@@ -1,0 +1,48 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - whiterice
+  - brownrice
+  - bot_challenge
+
+responses:
+  utter_greet:
+  - text: "Welcom to REISDUFT! Did you find your favorite rice?"
+  
+  utter_askcustomer:
+  - text: "Okay. We help you by finding of your favourit rice.
+            Would you want to eat white rice or brown rice?"
+            
+  utter_cheer_up:  
+  - text: >
+        Very good! We have the following sorts of delicous white rice for you! 
+        Find your rice using the link: "https://reisduft.de/jasminreis/"
+        
+  utter_cheer_upp:  
+  - text: >
+        Very good! We have the following sorts of delicous brown rice for you! 
+        Find your rice using the link: "https://reisduft.de/jasminreis/"      
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Excellent! Nice to hear that and have fun shopping!"
+      
+
+  
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
